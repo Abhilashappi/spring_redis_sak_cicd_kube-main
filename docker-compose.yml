@@ -20,8 +20,8 @@
 
     app:
       build: .
-      image: sak_redis_app:latest
-      container_name: sak_app
+      image: abhi539/host
+      container_name: Abhi_app
       environment:
         SPRING_REDIS_HOST: redis
         SPRING_REDIS_PORT: 6379
